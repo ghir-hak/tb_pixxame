@@ -1,0 +1,11 @@
+id: QmZfgjK4g1Gz4tRAB1C8Fjz4UaomzmEwqykTpaxM6Miqso
+description: ""
+tags: []
+source: libraries/pixxame_backend
+trigger:
+    type: pub-sub
+    channel: chat
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: onChatMessage

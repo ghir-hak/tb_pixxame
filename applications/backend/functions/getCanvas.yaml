@@ -1,0 +1,15 @@
+id: QmYWa9CNYnWotT8pwvqySebkGXbmutMV3jNoCPksPtEjT8
+description: ""
+tags: []
+source: libraries/pixxame_backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/canvas
+domains:
+    - globalDomain
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: getCanvas

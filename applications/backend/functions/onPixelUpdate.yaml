@@ -1,0 +1,11 @@
+id: Qmdm2Ck9rxmmEYUsLBHamxn6SNArmM7hoCHYWaPWS4uETY
+description: ""
+tags: []
+source: libraries/pixxame_backend
+trigger:
+    type: pub-sub
+    channel: pixels
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: onPixelUpdate
