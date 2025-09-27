@@ -1,0 +1,12 @@
+id: QmfJm3XpBoCcW6ThDHhcFo6aubM4JJoQFeAUE9KjFs9dYg
+description: ""
+tags: []
+domains:
+    - globalDomain
+source:
+    paths:
+        - /
+    branch: main
+    github:
+        id: 1065208480
+        fullname: ghir-hak/tb_website_pixxame_frontend
